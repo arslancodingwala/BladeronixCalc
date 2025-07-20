@@ -4,7 +4,7 @@
 
 ---
 
-![Bladeronix Calculator](Punjabi Calculator Design.png)
+![Bladeronix Calculator](/Punjabi Calculator Design.png)
 
 
 ## 🚀 Features
