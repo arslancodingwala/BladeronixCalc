@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bladeronix | Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-background"></div>
+
+    <div class="smoke-container">
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="smoke"></div>
+        <div class="particle" style="left: 10%;"></div>
+        <div class="particle" style="left: 30%;"></div>
+        <div class="particle" style="left: 50%;"></div>
+        <div class="particle" style="left: 70%;"></div>
+        <div class="particle" style="left: 90%;"></div>
+    </div>
+
+    <div class="corner-decoration top-left"></div>
+    <div class="corner-decoration top-right"></div>
+    <div class="corner-decoration bottom-left"></div>
+    <div class="corner-decoration bottom-right"></div>
+
+    <div class="hud-element top-left">SYS: ONLINE</div>
+    <div class="hud-element top-right">PWR: 100%</div>
+    <div class="hud-element bottom-left">VER: 2.3</div>
+
+    <div class="calc-name">BLADERONIX</div>
+
+    <div class="additional-elements">
+        <button class="btn" id="lang-switcher" onclick="switchLanguage()">EN</button>
+    </div>
+
+    <div class="calculator-container">
+        <div class="user-name" data-translate-key="user-name">پنجابی کیلکولیٹر · v2.3</div>
+        <div class="calculator">
+            <div class="voice-indicator"></div>
+
+            <div class="display" id="display" data-translate-key="display">0</div>
+
+            <div class="buttons">
+                <button class="btn btn-ac" onclick="clearDisplay()" data-translate-key="clear">AC</button>
+                <button class="btn" onclick="deleteLast()" data-translate-key="delete">DEL</button>
+                <button class="btn operator" onclick="appendToDisplay('/')" data-translate-key="divide">÷</button>
+                <button class="btn operator" onclick="appendToDisplay('*')" data-translate-key="multiply">×</button>
+
+                <button class="btn" onclick="appendToDisplay('7')" data-translate-key="seven">۷</button>
+                <button class="btn" onclick="appendToDisplay('8')" data-translate-key="eight">۸</button>
+                <button class="btn" onclick="appendToDisplay('9')" data-translate-key="nine">۹</button>
+                <button class="btn operator" onclick="appendToDisplay('-')" data-translate-key="subtract">−</button>
+
+                <button class="btn" onclick="appendToDisplay('4')" data-translate-key="four">۴</button>
+                <button class="btn" onclick="appendToDisplay('5')" data-translate-key="five">۵</button>
+                <button class="btn" onclick="appendToDisplay('6')" data-translate-key="six">۶</button>
+                <button class="btn operator" onclick="appendToDisplay('+')" data-translate-key="add">+</button>
+
+                <button class="btn" onclick="appendToDisplay('1')" data-translate-key="one">۱</button>
+                <button class="btn" onclick="appendToDisplay('2')" data-translate-key="two">۲</button>
+                <button class="btn" onclick="appendToDisplay('3')" data-translate-key="three">۳</button>
+                <button class="btn operator" onclick="appendToDisplay('√')" data-translate-key="sqrt">√</button>
+
+                <button class="btn zero" onclick="appendToDisplay('0')" data-translate-key="zero">۰</button>
+                <button class="btn decimal" onclick="appendToDisplay('.')" data-translate-key="decimal">۔</button>
+                <button class="btn equals" onclick="calculate()" data-translate-key="equals">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
