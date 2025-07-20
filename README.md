@@ -4,11 +4,7 @@
 
 ---
 
-![Bladeronix Calculator](https://github.com/arslancodingwala/BladeronixCalc/blob/main/English%20Calculator%20Design.png
-)
-
-
-
+![Bladeronix Calculator](https://github.com/arslancodingwala/BladeronixCalc/blob/main/English%20Calculator%20Design.png)
 
 ## 🚀 Features
 
@@ -41,6 +37,9 @@
 ## 🌐 Language Switching
 
 Use the **PA or EN** button to toggle:
+
+![Bladeronix Calculator](https://github.com/arslancodingwala/BladeronixCalc/blob/main/Punjabi%20Calculator%20Design.png)
+
 
 ```text
 [LANG] → Punjabi → English → Punjabi ...
