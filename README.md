@@ -4,8 +4,6 @@
 
 ---
 
-![Bladeronix Calculator](/Punjabi Calculator Design.png)
-
 
 ## 🚀 Features
 
