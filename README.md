@@ -4,6 +4,9 @@
 
 ---
 
+![Bladeronix Calculator](Punjabi Calculator Design.png)
+
+
 ## 🚀 Features
 
 - 🎨 **Bold Design**: Eye-catching **blood red body** with high-contrast black buttons and LED screen.
